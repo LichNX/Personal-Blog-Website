@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Be Viet Name';
+    src: url('font/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf') format('truetype');
+    /* Bạn có thể thêm các định dạng khác như woff, woff2 nếu có */
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Be Viet Name, sans-serif;
+    color: #002050;
+}

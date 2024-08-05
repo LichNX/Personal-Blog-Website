@@ -1,0 +1,149 @@
+@import url("core.css");
+@import url("header.css");
+@import url("footer.css");
+
+.home{
+    padding-top: 130px;
+}
+.title{
+    display: flex;
+    margin-bottom: 30px;
+}
+.title h2 {
+    padding-top: 5px;
+}
+
+.articles{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#epcl-classic-sidebar-1{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+        'content-left content-right' ;
+}
+.grid-70{
+    grid-area: content-left;
+}
+.grid-30{
+    grid-area: content-right;
+}
+.cover-image{
+    height: 330px; 
+    width: 330px;
+    border-radius: 10px;
+}
+.main-post{
+    padding: 20px 20px 20px 40px;
+    text-decoration: none;
+    unicode-bidi: isolate;
+    max-height: 300px;
+}
+
+.main-post a {
+    text-decoration: none;
+}
+.main-title {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.main-title a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    transition: background 0.3s;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.main-title a:hover::after {
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+.meta{
+    display: flex;
+    align-items: center;    
+}
+.meta .author-post-avatar {
+   border-radius: 20px;
+   height: 35px;
+   width: 35px;
+}
+
+.author {
+    padding-left: 15px;
+    font-size: 14px;
+}
+.post-descript{
+    margin-top: 15px;
+}
+
+.post-bottom{
+    margin-top: 30px;
+}
+
+.read-btn{
+    width: 135px;
+    height: 43px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 7px 22px;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+.read-btn:hover{
+    background: linear-gradient(to right, #f3aacf 0%, #f1479c 100%);
+    cursor: pointer;
+}
+
+.about-me{
+    background-color: #FFF9F3;
+    padding: 35px 40px;
+    border-radius: 15px;
+    border: 1px solid #ce7a27;
+}
+.meta .about-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+ }
+
+.about{
+    margin-top: 20px;
+}
+.social{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.link-with-icon {
+    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-with-icon span {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px; /* Keep font size as needed */
+    line-height: 1; /* Remove extra line height */
+}
+.margin-bot-20{
+    margin-bottom: 20px;
+}
+div.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 130px;
+}

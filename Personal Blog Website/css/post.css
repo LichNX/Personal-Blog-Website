@@ -1,0 +1,166 @@
+#epcl-classic-sidebar-2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+        'content-left content-right' ;
+}
+.cover-image-div{
+    max-width: 826px;
+    height: 400px;
+}
+.cover-image{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+    display: block;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 40px;
+    width: 726px;
+}
+.meta{
+    justify-content: center;
+}
+
+.post-descript {
+    padding: 50px 60px;
+}
+
+.post-descript p {
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+
+.post-descript h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.post-descript h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.link-in-post{
+    color: #F43676;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.post-descript figure{
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+} 
+.post-descript img{
+    width: 726px;
+    height: 565px;
+    border-radius: 25px;
+    margin-bottom: 24px;
+}
+
+.post-descript ol{
+    margin-left: 45px;
+    margin-bottom: 24px;
+}
+
+.post-descript ol li{
+    padding: 8px;
+}
+
+.post-descript-br{
+    margin-top: 45px;
+    border-bottom: 1px solid gray;
+}
+
+.reply-btn{
+    font-size: 12px;
+    width: 64px;
+    height: 32px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+.reply-btn:hover{
+    background: linear-gradient(to right, #f3aacf 0%, #f1479c 100%);
+}
+
+.reply-post-avatar{
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.author{
+    padding-top: 5px;
+}
+
+.post-comment{
+    padding: 0px 60px;
+}
+.post-content{
+    margin-top: 15px;
+}
+
+.post-reply{
+    padding: 50px 0px 50px 60px;
+}
+
+.form-group{
+    justify-content: space-between;
+}
+
+.form-input-area{
+    width: 100%;
+    border: 1px solid #979595;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.form-input{
+    width: 48%;
+    border: 1px solid #979595;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.form-input-website{
+    width: 100%;
+    border: 1px solid #979595;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.form-checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+.form-margin{
+    margin-bottom: 15px;
+}
+
+.btn-post-comment{
+    font-size: 12px;
+    width: 160px;
+    height: 42px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+.btn-post-comment:hover{
+    background: linear-gradient(to right, #f3aacf 0%, #f1479c 100%);
+}

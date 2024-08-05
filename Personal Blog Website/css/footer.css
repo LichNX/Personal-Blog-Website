@@ -1,0 +1,71 @@
+footer{
+    background-color: #FFF9F3;
+    border-top: 1px solid #ce7a27;
+}
+
+.footer-set{
+    max-width: 1440px;
+    padding: 0px;
+}
+
+.widget_text p{
+    margin-bottom: 15px;
+}
+.footer-display{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        'footerwidget-1 footerwidget-2 footerwidget-3';
+}
+
+#footerwidget-1{
+    padding: 15px 40px 15px 80px;
+    grid-area: footerwidget-1;
+}
+
+#footerwidget-2{
+    padding: 15px 40px 15px 80px;
+    grid-area: footerwidget-2;
+}
+
+#footerwidget-3{
+    padding: 15px 40px 15px 80px;
+    grid-area: footerwidget-3;
+}
+
+.border-left{
+    border-left: 1px solid #ce7a27;
+}
+.cover-image-recent{
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.main-post-recent{
+    padding: 10px 10px 10px 40px;
+    unicode-bidi: isolate;
+    max-height: 300px;
+}
+
+.main-post-recent a {
+    text-decoration: none;
+}
+
+.main-title-recent{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.author-recent{
+    font-size: 12px;
+}
+
+.articles-recent{
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer-content{
+    text-align: center;
+    height: 40px;
+}
