@@ -56,8 +56,9 @@
     width: 100%;
 } 
 .post-descript img{
-    width: 726px;
-    height: 565px;
+    width: 100%;
+    height: auto;
+    max-height: 565px;
     border-radius: 25px;
     margin-bottom: 24px;
 }
